@@ -44,3 +44,40 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+/* Background Colour */
+
+.body {
+    background-color:rgb(184, 68, 230)
+}
+
+.body2 {
+    background-image:url('../images/banner-home.fc70d7f4.jpg')
+}
+
+/* Make specified text white */
+
+.whitetext1 {
+    color: white; font-size: 1vw
+}
+
+.whitetext2 {
+    color: white; font-size: 2vw
+}
+
+.whitetext3 {
+    color: white; font-size: 3vw
+}
+/* Make speciied text yellow */
+
+.yellowtext {
+    text-align:center; color:yellow; font-size:3vw
+}
+
+
+.yellowtext2 {
+    text-align:center; color:yellow; font-size:2vw
+}
+.yellowtextL {
+    text-align:left; color:yellow; font-size:3vw
+}

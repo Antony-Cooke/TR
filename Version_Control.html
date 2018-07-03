@@ -102,7 +102,7 @@
             </div>
             <div class='col-sm-6'>
                 <div class='picture'>
-                    <a href="JavaScript.html">
+                    <a href="Bootstrap.html">
                         <img src="images/banner-home.fc70d7f4.jpg" alt="TR Classroom image" style="width:242px; height:146px" ;>
                         <div class="centered">
                             <h1>Next</h1>
@@ -114,196 +114,325 @@
                 <br>
             </div>
             <div class='col-sm-12'>
-                <h2 class='yellowtext'>Version Control info to follow...</h2>
+                <h2 class='yellowtext'>What is Version Control and why is it important?</h2>
             </div>
             <div class='col-sm-12'>
                 <h2>
                     <ul>
-                        <li>CSS (Cascading Style Sheets) was created by the World Wide Web Consortium (W3C) to solve to problem
-                            of formatting and styling a document.</li>
-                        <li>CSS is used to define styles for your web pages, including the design, layout and variations in display
-                            for different devices and screen sizes. </li>
-                        <li>This allows HTML to do its job - defining the content of a document.</li>
-                        <li>Examples of CSS designs…</li>
+                        <li>Version Control (aka Revision Control aka Source Control) lets you track your files over time.</li>
+                        <li>Version control is also the key to collaborative software development… </li>
                         <ul>
-                            <li>
-                                <a href="https://pattle.github.io/simpsons-in-css/" class='whitetext2'>
-                                    https://pattle.github.io/simpsons-in-css/</a>
-                            </li>
-                            <li>
-                                <a href="http://www.csszengarden.com/" class='whitetext2'>
-                                    http://www.csszengarden.com/</a>
-                            </li>
+                            <li>you can work in teams on the same project easily</li>
+                            <li>manage conflicts in code on the same files</li>
+                            <li>work on different versions all at the same time</li>
+                            <li>decide what you want to keep and what you want to bin</li>
                         </ul>
                     </ul>
                 </h2>
             </div>
             <div class='col-sm-12'>
-                <h2 class='yellowtext'>LINKING YOUR CSS AND HTML CODE</h2>
+                <h2 class='yellowtext'>Why Do We Need A Version Control System (VCS)?</h2>
             </div>
             <div class='col-sm-12'>
                 <h2>
                     <ul>
-                        <li>Put the css inline in the html</li>
-                        <li>Put the css in a &ltstyle&gt&lt/style&gt section in the &lthead&gt</li>
-                        <li>Link to a separate css file in the &lthead&gt</li>
-                        <li>With an external stylesheet file, you can change the look of an entire website by changing just one
-                            file!
+                        <li>Backup and Restore - Files are saved as they are edited, and you can jump to any moment in time.</li>
+                        <li>Synchronization. Lets people share files and stay up-to-date with the latest version.
                         </li>
-                        <li>Demo - linking css file</li>
-                        <li>By separating these CSS rules into their own file you:</li>
-                        <ol>
-                            <li>Reduce repetition in your code</li>
-                            <li>Reduce the amount of information that has to be sent to the browser for each page
-                                <br>If the CSS file applies to the whole site, it only needs to be sent to the visitor once.</li>
-                        </ol>
+                        <li>Track Changes. As files are updated, you can leave messages explaining why the change happened (stored
+                            in the VCS, not the file). This makes it easy to see how a file is evolving over time, and why.</li>
+                        <li>Track Ownership. A VCS tags every change with the name of the person who made it. Helpful for
+                            <a href="http://www.unwords.com/unword/blamestorming.html" class='whitetext2'>blamestorming</a>
+                            / giving credit. </li>
+                        <li>Branching and merging - You can branch a copy of your code into a separate area and modify it in
+                            isolation (tracking changes separately). Later, you can merge your work back into the common
+                            area.
+                        </li>
                     </ul>
                 </h2>
+            </div>
+            <div class='col-sm-12'>
+                <h2 class='yellowtext'>GIT Vs GITHUB</h2>
+            </div>
+            <div class='col-sm-3'>
+                <br>
+            </div>
+            <div class='col-sm-5'>
+                <div>
+                    <image id='picture2' src="images/Github2.png" alt=Github image></image>
+                </div>
+            </div>
+            <div class='col-sm-4'>
+                <br>
+            </div>
+            <div class='col-sm-12'>
+                <br>
+            </div>
+            <div class='col-sm-3'>
+                <br>
+            </div>
+            <div class='col-sm-5'>
+                <table class="table table-bordered table-hover" 'col-xs-4' 'col-sm-12' style="text-align:center; color: white">
+                    <thead>
+                        <tr style="color: yellow">
+                            <th>Git</th>
+                            <th>Github</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>a tool that allows creation of a local repository</td>
+                            <td>allows hosting the central repository on a remote server</td>
+                        </tr>
+                        <tr>
+                            <td>a version control system</td>
+                            <td>a repository hosting service</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class='col-sm-2'>
+                <br>
+            </div>
+            <div class='col-sm-12'>
+                <h2 class='yellowtext'>GitHub terminology</h2>
             </div>
             <div class='col-sm-12'>
                 <h2>
                     <ul>
-                        <li>Task 1</li>
-                        <ul>
-                            <li>Create a style.css file and create a link to it in your index.html</li>
-                            <li>Write some CSS in the file to check it is linked</li>
-                        </ul>
+                        <li>Repositories - A repository is the most basic element of GitHub. They're easiest to imagine as a
+                            project's folder. A repository contains all of the project files (including documentation), and
+                            stores each file's revision history.</li>
+                        <li>Branches - Branching is the way to work on different parts of a repository at one time.</li>
+                        <li>Commits - A commit, or "revision", is an individual change to a file (or set of files). It's like
+                            when you save a file. Commits usually contain a commit message which is a brief description of
+                            what changes were made.</li>
+                        <li>Pull Request - Pull requests are proposed changes to a repository submitted by a user and accepted
+                            or rejected by a repository's collaborators.</li>
+                        <li>Branching and merging - You can branch a copy of your code into a separate area and modify it in
+                            isolation (tracking changes separately). Later, you can merge your work back into the common
+                            area.
+                        </li>
                     </ul>
                 </h2>
             </div>
-            <div class='col-sm-12'>
-                <h2 class='yellowtext'>RULE SET</h2>
+            <div class='col-sm-3'>
+                <br>
             </div>
-            <div class='col-sm-12' style="text-align:center">
-                <h2>
-                    <img src="images/selector.gif" alt="Selector gif" style="width:569px; height:119px" ;>
-                </h2>
+            <div class='col-sm-5'>
+                <div id='picture3'>
+                    <image src="images/Checkpoint-timeline.jpg" alt=timeline image></image>
+                </div>
             </div>
-            <div class='col-sm-12'>
-                <h2 style="text-align:center">Read more about the syntax use to set CSS rules here:
-                    <a href="https://www.w3schools.com/css/css_syntax.asp" class='whitetext2'>
-                        <br> https://www.w3schools.com/css/css_syntax.asp
-                    </a>
-                </h2>
+            <div class='col-sm-4'>
+                <br>
             </div>
             <div class='col-sm-12'>
-                <h2 class='yellowtext'>MORE ABOUT THE HTML &ltLINK&gt TAG</h2>
+                <br>
             </div>
             <div class='col-sm-12'>
-                <h2>
-                    <ul>
-                        <li>Absolute links - external links include the complete url to the resource you’re linking to.
-                            <br>Absolute links start with either http:// or https://.</li>
-                        <li>Document-relative links - contain the path to the resource relative to the file where the link is
-                            written. Document-relative links don’t begin with /:</li>
-                        <li>Add an image using both styles of linking</li>
-                    </ul>
-                </h2>
-            </div>
-            <div class='col-sm-12'>
-                <h2 class='yellowtext'>ADDING STYLE VIA AN EXTERNAL STYLESHEET
-                </h2>
+                <h2 class='yellowtext'>GitHub Tour</h2>
             </div>
             <div class='col-sm-12'>
                 <h2 style="text-align:center">
-                    <a href="https://codepen.io/LauraClos/pen/vWRNmQ?editors=1100#0" class='whitetext2'>
-                        https://codepen.io/LauraClos/pen/vWRNmQ?editors=1100#0
+                    <a href="https://github.com/123lk/ffs-front-portfolio" class='whitetext2'>
+                        https://github.com/123lk/ffs-front-portfolio
                     </a>
                 </h2>
             </div>
             <div class='col-sm-12'>
-                <h2 class='yellowtext'>ID’S AND CLASS SELECTORS
+                <h2 class='yellowtext'>Task 1 - setup a GitHub account</h2>
+            </div>
+            <div class='col-sm-12' style="text-align:center">
+                <h2 style="text-align:center">
+                    <a href="https://github.com/" class='whitetext2'>
+                        https://github.com/
+                    </a>
                 </h2>
             </div>
             <div class='col-sm-12'>
-                <h2>
-                    <code class='yellowtext2'>&lth2 id="products_title"&gtOur scrumptious puddings&lt/h2&gt</code>
+                <h2 class='yellowtext'>Task 2 - GitHub tutorial</h2>
+            </div>
+            <div class='col-sm-12' style="text-align:center">
+                <h2 style="text-align:center">
+                    <a href="https://guides.github.com/activities/hello-world/" class='whitetext2'>
+                        https://guides.github.com/activities/hello-world/
+                    </a>
                 </h2>
             </div>
             <div class='col-sm-12'>
-                <h2>
-                    <code class='yellowtext2'>&ltul id="products_list"&gt</code>
-                </h2>
-            </div>
-            <div class='col-sm-12'>
-                <h2>
-                    <code class='yellowtext2'>&ltli id="product_item"&gtBlack Forest Gateaux&lt/li&gt</code>
-                </h2>
-            </div>
-            <div class='col-sm-12'>
-                <h2>
-                    <code class='yellowtext2'>&ltli id="product_item"&gtRaspberry Lemon Swirl Cheesecake&lt/li&gt</code>
-                </h2>
-            </div>
-            <div class='col-sm-12'>
-                <h2>
-                    <code class='yellowtext2'>&ltli id="product_item"&gtSticky Toffee Pudding&lt/li&gt</code>
-                </h2>
-            </div>
-            <div class='col-sm-12'>
-                <h2>
-                    <code class='yellowtext2'>&ltli id="product_item"&gtDeath-by-Chocolate Cake&lt/li&gt</code>
-                </h2>
-            </div>
-            <div class='col-sm-12'>
-                <h2>
-                    <code class='yellowtext2'>&lt/ul&gt</code>
-                </h2>
-            </div>
-            <div class='col-sm-12'>
-                <h2>Both
-                    <b>ID</b> and
-                    <b>Class</b> are used to add some information to the HTML tags.
-                    <br>The difference is that
-                    <b>ID</b> should specify a
-                    <i>
-                        <b>unique</b>
-                    </i> element on the page,
-                    <br>whereas multiple elements can
-                    <i>
-                        <b>share</b>
-                    </i> the same
-                    <b>class.</b>
-                    <br>This is useful when you have loads of code to sift through
-                    </b>
-                </h2>
-            </div>
-            <div class='col-sm-12'>
-                <h2 class='yellowtext'>&ltDIVS&gt AND &ltSPANS&gt</h2>
+                <h2 class='yellowtext'>Intro to the command line</h2>
             </div>
             <div class='col-sm-12'>
                 <h2>
                     <ul>
-                        <li>&ltdiv&gt is a block element</li>
-                        <li>A block-level element always starts on a new line and takes up the full width available (stretches
-                            out to the left and right as far as it can).</li>
-                        <li>&ltspan&gt is an inline element</li>
-                        <li>An inline element does not start on a new line and only takes up as much width as necessary.</li>
+                        <li>It is a tool which you can type text commands into to perform specific tasks
+                            <b>directly to the computer</b>
+                        </li>
+                        <li>Through typing, many tasks can be performed more quickly, and some tasks can be automated with special
+                            commands that loop through and perform the same action on many files — saving you lots of time
+                            in the process.</li>
+                        <li>The computer will attempt to carry out any command that it understands. Unfortunately, the computer
+                            does not speak in any language spoken by humans</li>
+                        <li>The people who have created the operating systems you work on have created a standard set of commands
+                            that are built into the computer without having to be processed.
+                        </li>
+                        <li>The user interface that accepts your typed responses and displays data on the screen is called a
+                            <b>
+                                <u>shell</u>
+                            </b> and there are many different varieties that you can choose from.
+                        </li>
+                        <li>Most common one is
+                            <b>
+                                <u>Bash</u>
+                            </b> which is the default on mac and Linux.
+                            <br>If you are using Windows you can download git for windows at
+                            <a href="https://gitforwindows.org/" class='whitetext2'>
+                                https://gitforwindows.org/
+                            </a>
+                        </li>
                     </ul>
                 </h2>
             </div>
             <div class='col-sm-12'>
-                <h2 class='yellowtext'>CSS Exercises</h2>
+                <h2 class='yellowtext'>What can we do with Command Line?</h2>
             </div>
             <div class='col-sm-12'>
                 <h2>
-                    <a href="https://www.w3schools.com/css/exercise.asp?filename=exercise_syntax1" class='whitetext2'>
-                        https://www.w3schools.com/css/exercise.asp?filename=exercise_syntax1
+                    <ul>
+                        <li>Move around your file structure</li>
+                        <li>Create and remove folders</li>
+                        <li>Create and remove files</li>
+                        <li>Copy and paste files</li>
+                        <li>Rename files</li>
+                        <li>List files</li>
+                        <li>Run programs, servers etc</li>
+                        <li>Can also Delete!! If you instruct the computer to erase all of your data, it will cheerfully proceed
+                            to do so.</li>
+                        <li>KEY NOTE:
+                            <b>Do not run a command just to see what it does.</b>
+                        </li>
+                        <li>Make sure you understand what the command is supposed to do first, especially if the command involves
+                            changing or removing files.</li>
+                    </ul>
+                </h2>
+            </div>
+            <div class='col-sm-12'>
+                <h2 class='yellowtext'>Git &amp The Command Line</h2>
+            </div>
+            <div class='col-sm-12'>
+                <h2>
+                    <ul>
+                        <li>Git is a very powerful and popular version control system, and the only place you can run all Git
+                            commands is from the command line.</li>
+                        <li>If you know how to run the command line version, you can probably figure out any GUI versions.</li>
+                        <li>Command-line tools are used by developers everyday, so it’s best to understand it for the future!
+                            :)
+                        </li>
+                    </ul>
+                </h2>
+            </div>
+            <div class='col-sm-12'>
+                <h2 class='yellowtext'>Task 2 - create a repository for your website on GitHub</h2>
+            </div>
+            <div class='col-sm-12' style="text-align:center">
+                <h2>Make some changes to your website and push up to github
+                    <br>
+                    <a href="https://git-for-windows.github.io/" class='whitetext2'>
+                        https://git-for-windows.github.io/
                     </a>
                 </h2>
             </div>
             <div class='col-sm-12'>
-                <h2 class='yellowtext'>CSS Online Quiz</h2>
+                <h2 class='yellowtext'> Some useful git commands
+                </h2>
+            </div>
+            <div class='col-sm-1'>
+                <br>
+            </div>
+            <div class='col-sm-10'>
+                <table class="table table-bordered table-hover" 'col-xs-4' 'col-sm-12' style="text-align:center; color: white">
+                    <thead>
+                        <tr style="color: yellow">
+                            <th>Command</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>git init</td>
+                            <td>initialise a project for version control (do this from within the folder to be initialised)</td>
+                        </tr>
+                        <tr>
+                            <td>git status</td>
+                            <td>see where changes have been made, but not yet added</td>
+                        </tr>
+                        <tr>
+                            <td>git add .</td>
+                            <td>add all outstanding changed files into staging
+                                <br>You can specify a particular file if you don't want to add them all</td>
+                        </tr>
+                        <tr>
+                            <td>git commit -m "{message}"</td>
+                            <td>commit change to git and add a relevant comment to identy changes made
+                                <br>These will be visible against all affected files in GitHub.</td>
+                        </tr>
+                        <tr>
+                            <td>git log</td>
+                            <td>log of all commits
+                                <br>Note: you need to enter q (for Quit) to get out of the status window</td>
+                        </tr>
+                        <tr>
+                            <td>git remote add origin {url}</td>
+                            <td>sets up connection to between repository on your PC and the one in GitHub</td>
+                        </tr>
+                        <tr>
+                            <td>git push origin {branchname}</td>
+                            <td>sends code to the {branchname} branch on git-hub (usually master, but you have to specify)</td>
+                        </tr>
+                        <tr>
+                            <td>git remote -v</td>
+                            <td>Shows you the target url of the repository on GitHub if you are connected</td>
+                        </tr>
+                        <tr>
+                            <td>git clone {url}</td>
+                            <td>takes a copy from github and loads it on your pc
+                                <br>>NB puts the code into a new folder</td>
+                        </tr>
+                        <tr>
+                            <td>rm -rf .git</td>
+                            <td>Trouble shooting - delete local git repository
+                                <br>Very useful if you have cloned to the wrong location and want to remove the error. Remember
+                                to move / copy your changed code to a tempoaray location before you remove the local repository
+                                as it will be deleted!</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
             <div class='col-sm-12'>
+                <h2 class='yellowtext'>Additional materials</h2>
+            </div>
+            <div class='col-sm-12' style="text-align:center">
                 <h2>
-                    <a href="https://www.w3schools.com/quiztest/quiztest.asp?qtest=CSS" class='whitetext2'>
-                        https://www.w3schools.com/quiztest/quiztest.asp?qtest=CSS
+                    <a href="https://www.codecademy.com/learn/learn-git" class='whitetext2'>
+                        https://www.codecademy.com/learn/learn-git
                     </a>
                 </h2>
             </div>
+            <div class='col-sm-12' style="text-align:center">
+                <h2>Introduction to Bootstrap
+                    <br>
+                    <a href="https://getbootstrap.com/docs/4.0/getting-started/introduction/" class='whitetext2'>
+                        https://getbootstrap.com/docs/4.0/getting-started/introduction/
+                    </a>
+                    <br>https://getbootstrap.com/docs/4.0/getting-started/introduction/
+                </h2>
+            </div>
+            <div class='col-sm-1'>
+                <br>
+            </div>
             <div class='col-sm-12'>
-                <h2 class='yellowtext'> Version Control is next...
+                <h2 class='yellowtext'> Bootstrap is next...
                     <br> Click the link Below</h2>
             </div>
             <div class='col-sm-12'>
@@ -314,10 +443,10 @@
             </div>
             <div class='col-sm-4'>
                 <div class='picture'>
-                    <a href="Version_Control.html">
+                    <a href="Bootstrap.html">
                         <img src="images/banner-home.fc70d7f4.jpg" alt="TR Classroom image" style="width:242px; height:146px" ;>
                         <div class="centered">
-                            <h1>CSS</h1>
+                            <h1>Bootstrap</h1>
                         </div>
                     </a>
                 </div>

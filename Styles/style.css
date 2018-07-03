@@ -74,10 +74,113 @@
     text-align:center; color:yellow; font-size:3vw
 }
 
-
 .yellowtext2 {
     text-align:center; color:yellow; font-size:2vw
 }
 .yellowtextL {
     text-align:left; color:yellow; font-size:3vw
+}
+
+/* Make speciied text red */
+
+.redtext {
+    color:darkred
+}
+
+/* Make speciied text red */
+
+.blacktext {
+    color:black
+}
+
+/* Picture formats - individual ID's */
+
+#picture2 {
+    position: relative;
+    text-align: center;
+    box-sizing: border-box;
+    border: 5px solid black;
+    width: 510px;
+    height: 246px;
+}
+
+#picture3 {
+    position: relative;
+    text-align: center;
+    box-sizing: border-box;
+    border: 5px solid black;
+    width: 534px;
+    height: 586px;
+}
+
+#picture4 {
+    position: relative;
+    text-align: center;
+    box-sizing: border-box;
+    border: 5px solid black;
+    width: 498px;
+    height: 109px;
+}
+
+#picture5 {
+    position: relative;
+    text-align: center;
+    box-sizing: border-box;
+    border: 5px solid black;
+    width: 413px;
+    height: 279px;
+}
+
+#picture6 {
+    position: relative;
+    text-align: center;
+    box-sizing: border-box;
+    border: 5px solid black;
+    width: 581px;
+    height: 141px;
+}
+
+#picture7 {
+    position: relative;
+    text-align: center;
+    box-sizing: border-box;
+    border: 5px solid black;
+    width: 497px;
+    height: 213px;
+}
+
+#picture8 {
+    position: relative;
+    text-align: center;
+    box-sizing: border-box;
+    border: 5px solid black;
+    width: 371px;
+    height: 256px;
+}
+
+#picture9 {
+    position: relative;
+    text-align: center;
+    box-sizing: border-box;
+    border: 5px solid black;
+    width: 949px;
+    height: 173px;
+}
+
+#picture10 {
+    position: relative;
+    text-align: center;
+    box-sizing: border-box;
+    border: 5px solid black;
+    width: 281px;
+    height: 270px;
+}
+
+#picture11 {
+    position: relative;
+    text-align: center;
+    box-sizing: border-box;
+    border: 5px solid black;
+    width: 559px;
+    height: 35px;
 }

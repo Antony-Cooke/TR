@@ -57,6 +57,10 @@
 
 /* Make specified text white */
 
+.whitetext {
+    color: white;
+}
+
 .whitetext1 {
     color: white; font-size: 1vw
 }
@@ -68,6 +72,11 @@
 .whitetext3 {
     color: white; font-size: 3vw
 }
+
+.whitetext2L {
+    text-align:left; color: white; font-size: 2vw
+}
+
 /* Make speciied text yellow */
 
 .yellowtext {
@@ -183,4 +192,31 @@
     border: 5px solid black;
     width: 559px;
     height: 35px;
+}
+
+#picture12 {
+    position: relative;
+    text-align: center;
+    box-sizing: border-box;
+    border: 5px solid black;
+    width: 746px;
+    height: 151px;
+}
+
+#picture13 {
+    position: relative;
+    text-align: center;
+    box-sizing: border-box;
+    border: 5px solid black;
+    width: 606px;
+    height: 339px;
+}
+
+#picture14 {
+    position: relative;
+    text-align: center;
+    box-sizing: border-box;
+    border: 5px solid black;
+    width: 792px;
+    height: 171px;
 }

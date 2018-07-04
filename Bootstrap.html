@@ -378,7 +378,7 @@
                             <a href="https://getbootstrap.com/docs/3.3/css/#type-blockquotes" class='whitetext2'>blockquotes.</a>
                             <br>(Don't worry about the vertical grey lines - we'll remove those later.)</li>
                         <li>Change the paragraphs in 'Our mission' to be
-                            <a href="https://getbootstrap.com/docs/3.3/css/##type-body-copy" class='whitetext2'>lead body copy.</a>
+                            <a href="https://getbootstrap.com/docs/3.3/css/#type-body-copy" class='whitetext2'>lead body copy.</a>
                         </li>
                     </ol>
                 </h2>
@@ -444,10 +444,10 @@
                 <h2 class='yellowtext'>Modifying Bootstrap</h2>
             </div>
             <div class='col-sm-12'>
-                <h2 class='redtext'>Warning: Bootstrap has been designed and heavily tested for good crossbrowser compatibility. Unless you know
-                    what you're doing or have a lot of time, it's probably best to stick with their layout and tweak small
-                    things e.g. fonts and colours. Just because it looks great in your browser doesn't mean it will look
-                    great in everyone's!
+                <h2 class='redtext'>Warning: Bootstrap has been designed and heavily tested for good cross-browser compatibility. Unless you
+                    know what you're doing or have a lot of time, it's probably best to stick with their layout and tweak
+                    small things e.g. fonts and colours. Just because it looks great in your browser doesn't mean it will
+                    look great in everyone's!
                 </h2>
             </div>
             <div class='col-sm-12'>
@@ -468,18 +468,18 @@
                             <br>}
                             <br>
                             <br>#btn-twitter button {
-                            <br> background-color : 00acee;
-                            <br> bordercolor : 009ad5;
+                            <br> background-color : #00acee;
+                            <br> bordercolor : #009ad5;
                             <br>}
                             <br>
-                            <br>#btn-facebook button {
-                            <br> background-color : 4868ac;
-                            <br> bordercolor : 314776;
+                            <br>.btn-facebook button {
+                            <br> background-color : #4868ac;
+                            <br> bordercolor : #314776;
                             <br>}
                             <br>
-                            <br>#btn-pinterest button {
-                            <br> background-color : b62f26;
-                            <br> bordercolor : b62f26;
+                            <br>.btn-pinterest button {
+                            <br> background-color : #b62f26;
+                            <br> bordercolor : #b62f26;
                             <br>}
                         </code>
                             <br>
@@ -498,32 +498,109 @@
                 <h2 class='yellowtext'>Changing the background</h2>
             </div>
             <div class='col-sm-12'>
-                <h2>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                    </ul>
+                <h2>Have a look at the
+                    <a href="https://getbootstrap.com/docs/3.3/css/#images" class='whitetext2'>image section
+                    </a> of the Bootstrap docs (CSS > Images).
+                    <br>
+                    <br>
+                    <b class='redtext'>Task:</b>
+                    <br>
+                    <br>
+                    <ol class='redtext'>
+                        <li>Change the background of the
+                            <b>jumbotron</b> to be the image fruit-and-veg.jpg by adding the css
+                            <br>
+                            <br>
+                            <code class='blacktext'>.jumbotron {
+                                <br>&nbsp; &nbsp; min-height: 600px;
+                                <br>&nbsp; &nbsp; background-image: url('images/fruit-and-veg.jpg');
+                                <br>&nbsp; &nbsp; background-size: cover;
+                                <br>&nbsp; &nbsp; background-attachment: fixed;
+                                <br>
+                                <br>
+                            </code>
+                        </li>
+                        <li>This doesn't quite look right.
+                            <br>The problem is the
+                            <b>jumbotron</b> is inside the
+                            <b>div class='container'.</b>
+                            <br>You can fix this by moving the
+                            <b>container</b> inside
+                            <b>jumbotron</b>
+                            <br>
+                            <code class='blacktext'>
+                                    <br>&ltdiv class="jumbotron"&gt
+                                    <br>&nbsp; &nbsp; &ltdiv class="container"&gt
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <br>&nbsp; &nbsp; &lt/div"&gt
+                                    <br>&lt/div&gt
+                                    <br>
+                                    <br>Similarly you will now need to create new containers inside the <b>div
+                                    id='buzz'</b> and <b>div id='mission'</b>
+                                    <br>
+                                    <br>
+                            </code>
+                        </li>
+                        <li>Change the background color of the
+                            <b>mission</b> section to
+                            <b>rgba(32, 35, 41, 0.9)
+                            </b> and the font colour to
+                            <b>#ddd</b>
+                        </li>
+                    </ol>
+
                 </h2>
             </div>
             <div class='col-sm-12'>
-                <h2 class='yellowtext'></h2>
+                <h2 class='yellowtext'>Navbar</h2>
             </div>
             <div class='col-sm-12'>
-                <h2>
-                    <ul>
-                        <li></li>
-                    </ul>
+                <h2>Browse through the
+                    <a href="https://getbootstrap.com/docs/3.3/components/#navbar" class='whitetext2'>navbar section
+                    </a> of the Bootstrap docs.
+                    <br>
+                    <br>
+                    <b class='redtext'>Task:</b>
+                    <br>
+                    <br>
+                    <ol class='redtext'>
+                        <li>Look at the html for the
+                            <a href="https://getbootstrap.com/docs/3.3/examples/starter-template/#" class='whitetext2'>
+                                basic starter
+                            </a>template.
+                        </li>
+                        <li>Use it to add a navbar to your site.</li>
+                        <li>Make it a
+                            <b>navbar-fixed-top.</b> You will need to add the below to main.css.
+                            <br>
+                            <code class='blacktext'>
+                                <br>body { padding-top: 70px;}
+                            </code>
+                        </li>
+                        <li>Add a search box to the navbar. Use the
+                            <b>pull-right</b> class to put it on the right hand side.</li>
+                    </ol>
                 </h2>
             </div>
+
             <div class='col-sm-12'>
-                <h2 class='yellowtext'></h2>
+                <h2 class='yellowtext'>Other things</h2>
             </div>
             <div class='col-sm-12'>
-                <h2 class='yellowtext'>
+                <h2>There are various other changes you will need to make your site look like the example. Try and figure out
+                    what these are by examining the html in the Developer tools.
+                    <br>
+                    <br>
+                    <b class='redtext'>Task:</b>
+                    <br>
+                    <br>
+                    <ol class='redtext'>
+                        <li>Make any other changes necessary to make your site look like the Example</li>
+                        <li>If you get stuck check by looking at the gh-pages branch on the github repository.</li>
+                    </ol>
                 </h2>
-            </div>
-            <div class='col-sm-1'>
-                <br>
             </div>
             <div class='col-sm-12'>
                 <h2 class='yellowtext'>Additional materials</h2>
@@ -567,9 +644,8 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
-    <script src="main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"

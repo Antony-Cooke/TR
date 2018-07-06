@@ -90,6 +90,7 @@
         <p>jumbtron added to facilitate better reading format - all pages</p>
         <p>README.md updated</p>
         <p>More formatting changes to make the reader experience better</p>
+        <p>Added more content to git / git bash commands on Verion Control page</p>
         <br>
         <h1>
             <b>

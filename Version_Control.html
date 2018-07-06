@@ -347,14 +347,14 @@
                     </h3>
                 </div>
                 <div class='col-sm-12'>
-                    <h2 class='heading2'> Some useful git commands
+                    <h2 class='heading2'> Some useful git / git bash commands
                     </h2>
                 </div>
-                <div class='col-sm-1'>
+                <div class='col-sm-2'>
                     <br>
                 </div>
-                <div class='col-sm-10'>
-                    <table class="table table-bordered table-hover" 'col-xs-4' 'col-sm-12' style="text-align:center; color: white">
+                <div class='col-sm-9'>
+                    <table class="table table-bordered table-hover table-dark" style="color: white">
                         <thead>
                             <tr style="color: yellow">
                                 <th>Command</th>
@@ -400,7 +400,7 @@
                             <tr>
                                 <td>git clone {url}</td>
                                 <td>takes a copy from github and loads it on your pc
-                                    <br>>NB puts the code into a new folder</td>
+                                    <br>NB puts the code into a new folder</td>
                             </tr>
                             <tr>
                                 <td>rm -rf .git</td>
@@ -409,8 +409,61 @@
                                     to move / copy your changed code to a tempoaray location before you remove the local
                                     repository as it will be deleted!</td>
                             </tr>
+                            <tr>
+                                <td>pwd</td>
+                                <td>print working directory (show me the place in my folder structure that I am right now)</td>
+                            </tr>
+                            <tr>
+                                <td>cd ..</td>
+                                <td>move up one level in my folder structure</td>
+                            </tr>
+                            <tr>
+                                <td>cd -</td>
+                                <td>return to the last directory I was in (NB. This is a toggle setting)</td>
+                            </tr>
+                            <tr>
+                                <td>ls</td>
+                                <td>list structure (equivilent to dir command in DOS)</td>
+                            </tr>
+                            <tr>
+                                <td>ls -ltr</td>
+                                <td>same as ls, but shows details of file permissions, size, modification time and name, in reverse
+                                    order
+                                    <br>For a full list of list commands, type
+                                    <b class='redtext'>ls --help</b> on the command line and test a few out
+                                    <br>
+                                    <b class='redtext'>-l</b> : use a long list format
+                                    <br>
+                                    <b class='redtext'>-t</b> : sort by modification time, newest first
+                                    <br>
+                                    <b class='redtext'>-r</b> : reverse order when sorting
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>mkdir</td>
+                                <td>Make directory (folder) - will give an error if it already exists</td>
+                            </tr>
+                            <tr>
+                                <td>rmdir</td>
+                                <td>Remove (delete) a directory (NB must be empty)
+                                    <br>A directory cannot be removed if it is still registered as a git project. use
+                                    <b class='redtext'>rm -rf .git</b> to fix
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>rm</td>
+                                <td>delete file(s) from a directory
+                                    <br>
+                                    <b class='redtext'>rm --help</b> gives some assistance
+                                    <br>e.g. you can delete all jpg files by typing
+                                    <b class='redtext'>rm *.jpg</b>
+                                </td>
+                            </tr>
                         </tbody>
                     </table>
+                </div>
+                <div class='col-sm-1'>
+                    <br>
                 </div>
                 <div class='col-sm-12'>
                     <h2 class='heading2'>Additional materials</h2>

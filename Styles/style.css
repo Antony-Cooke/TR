@@ -1,3 +1,30 @@
+/* Set heading text colors */
+
+.heading1 {
+    font-family: 'Vast Shadow', cursive;
+    /*margin-bottom: 1em;*/
+    color: white;
+    text-align: center;
+    font-size:5vw
+}
+
+.heading2 {
+    color: yellow;
+    text-align: center;
+    font-size:3vw;
+}
+
+.heading3 {
+    color: white;
+    font-size:2vw;
+}
+
+.heading3C {
+    color: white;
+    text-align: center;
+    font-size:2vw;
+}
+
 /* Container holding the image and the text */
 .picture {
     position: relative;
@@ -51,55 +78,64 @@
     background-color:rgb(184, 68, 230)
 }
 
+.jumbotron {
+    background-color:rgb(184, 68, 230)
+}
+
 .body2 {
     background-image:url('../images/banner-home.fc70d7f4.jpg')
 }
 
 /* Make specified text white */
 
+.whiteh1 {
+    color: white;
+    text-align: center
+}
+
 .whitetext {
     color: white;
 }
 
 .whitetext1 {
-    color: white; font-size: 1vw
+    color: white; font-size: 1vw;
 }
 
 .whitetext2 {
-    color: white; font-size: 2vw
+    color: white; font-size: 2vw;
 }
 
 .whitetext3 {
-    color: white; font-size: 3vw
+    color: white; font-size: 3vw;
 }
 
 .whitetext2L {
-    text-align:left; color: white; font-size: 2vw
+    text-align:left; color: white; font-size: 2vw;
 }
 
 /* Make speciied text yellow */
 
 .yellowtext {
-    text-align:center; color:yellow; font-size:3vw
+    text-align:center; color:yellow; font-size:3vw;
 }
 
 .yellowtext2 {
-    text-align:center; color:yellow; font-size:2vw
+    text-align:center; color:yellow; font-size:2vw;
 }
 .yellowtextL {
-    text-align:left; color:yellow; font-size:3vw
+    text-align:left; color:yellow; font-size:3vw;
 }
 
 /* Make speciied text red */
 
 .redtext {
-    color:darkred
+    color:darkred;
 }
 
 /* Make speciied text red */
 
 .blacktext {
-    color:black
+    color:black;
 }
 
 /* Picture formats - individual ID's */

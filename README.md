@@ -25,8 +25,33 @@
     <h2><b><u>28/06/18</u></b></h2>
     <p>Home Page Written</p>
     <p>Getting Started Page commenced</p>
+    <p>HTML Page in progress</p>
     <p></p>
     <h2><b><u>28/06/18</u></b></h2>
-    <p>HTML Page in progress</p>
+    <p>HTML Page completed</p>
+    <p></p>
+    <h2><b><u>29/06/18</u></b></h2>
+    <p>Style sheet added</p>
+    <p>CSS Page added</p>
+    <p>Version Control page added</p>
+    <p></p>
+    <h2><b><u>03/07/18</u></b></h2>
+    <p>Version Control page completed</p>
+    <p>Bootstrap Page added</p>
+    <p></p>
+    <h2><b><u>04/07/18</u></b></h2>
+    <p>Bootstrap Page completed</p>
+    <p>Javascript page added</p>
+    <p>jQuery page added</p>
+    <p>Analytcs page added</p>
+    <p></p>
+    <h2><b><u>05/07/18</u></b></h2>
+    <p>All Page content completed</p>
+    <p>image filename typo corrected</p>
+    <p></p>
+    <h2><b><u>06/07/18</u></b></h2>
+    <p>jumbtron added to facilitate better reading format - all pages</p>
+    <p>README.md updated</p>
+    <p>More formatting changes to make the reader experience better</p>
     <p></p>
 </HTML>
